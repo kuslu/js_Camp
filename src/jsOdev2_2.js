@@ -5,12 +5,12 @@ let ikinciSayininToplami = 0
 
 for (let i = 1; i < birinciSayi; i++){
     if (birinciSayi % i == 0){
-        birinciSayininToplami = birinciSayininToplami + i}
+        birinciSayininToplami +=  i}
     }
 
 for (i = 1; i < ikinciSayi; i++){
     if (ikinciSayi % i == 0){
-        ikinciSayininToplami = ikinciSayininToplami + i}
+        ikinciSayininToplami +=  i}
     }
 
     if (birinciSayi == ikinciSayininToplami && ikinciSayi == birinciSayininToplami){
